@@ -79,7 +79,7 @@ const Details  = (props) => {
 
 
         <div>
-        <button id='add-toast' className='active-btn' onClick={clickedButtonFirst}>
+        <button id='add-toast' className='active-btn p-3 bg-blue-700 mt-4 text-white rounded-md' onClick={clickedButtonFirst}>
             <p>Activity Completed</p>
         </button>
 
