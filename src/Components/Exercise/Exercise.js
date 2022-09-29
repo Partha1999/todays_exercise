@@ -49,8 +49,8 @@ const Exercise = () => {
         <div>
         <div className='main-container'>
         <div>
-            <h1 className='select-exercise'>Select today's exercise</h1>
-                <div className="exercise-container">
+            <h1 className='today-exercise'>Select today's exercise</h1>
+                <div className="exercise">
                 {
                 exercises.map(exercise => <Product
                 key={exercise.id}
@@ -60,7 +60,7 @@ const Exercise = () => {
                 }
                 </div>
         </div>
-            <div className="cart-container">
+            <div className="details-container">
                 <Details cart={cart}></Details>
             </div>
         </div>

@@ -3,16 +3,16 @@
     grid-template-columns: 4fr 1fr;
     background-color: rgb(226 232 240);
 }
-.cart-container{
+.details-container{
     background-color: white;
 }
-.exercise-container{
+.exercise{
     padding: 0px 100px 100px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
-.select-exercise{
+.today-exercise{
     padding:  50px 100px 20px 100px;
     font-family: 'Lato';
     font-style: normal;

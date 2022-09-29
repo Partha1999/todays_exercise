@@ -1,7 +1,7 @@
 import React from 'react';
 import './Details.css';
 
-const Details = (props) => {
+const Details  = (props) => {
     const breakTime = localStorage.getItem('breakTime');
     const handleClickedValue = (e) => {
         localStorage.setItem('breakTime', e.target.innerText);
