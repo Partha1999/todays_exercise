@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {addToDb, getStoredCart} from '../../Utilities/fakedb';
-import Cart from '../Cart/Cart';
+import Details from '../Details/Details';
 import Product from '../Product/Product';
 import Qa from '../QA/Qa';
 import "./Exercise.css"
@@ -61,7 +61,7 @@ const Exercise = () => {
                 </div>
         </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Details cart={cart}></Details>
             </div>
         </div>
         </div>
