@@ -12,14 +12,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
-.today-exercise{
-    padding:  50px 100px 20px 100px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 25px;
-}
+
 @media only screen and (max-width: 640px) {
     .product{
         margin-left: auto;

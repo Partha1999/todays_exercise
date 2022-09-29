@@ -49,7 +49,7 @@ const Exercise = () => {
         <div>
         <div className='main-container'>
         <div>
-            <h1 className='today-exercise'>Select today's exercise</h1>
+            <h1 className='mt-10 mb-5 text-2xl font-bold'>Select today's exercise</h1>
                 <div className="exercise">
                 {
                 exercises.map(exercise => <Product
