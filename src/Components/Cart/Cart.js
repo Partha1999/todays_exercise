@@ -72,10 +72,10 @@ const Cart = (props) => {
         <div>
             <h1 className='font-bold mx-10'>Exercise Details</h1>
             <div className='bg-slate-100 mx-10 my-5  rounded-md '>
-                <p className='mx-5 p-2'>Exercise time: {total}</p>
+                <p className='mx-5 p-2'>Exercise time: {total}s</p>
             </div>
             <div className='bg-slate-100 mx-10  rounded-md'>
-                <p className='mx-5 p-2'>Break time: <span id='time'>{breakTime}</span></p>
+                <p className='mx-5 p-2'>Break time: <span id='time'>{breakTime}s</span></p>
             </div>
         </div>
 
